@@ -66,4 +66,20 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+
+    val cameraxVersion = "1.3.1"
+
+    implementation(libs.google.mlkit.facedetection)
+
+//    implementation ("androidx.camera:camera-core:1.1.0")
+//    implementation ("androidx.camera:camera-camera2:1.1.0")
+//    implementation ("androidx.camera:camera-lifecycle:1.1.0")
+//    implementation ("androidx.camera:camera-view:1.0.0-alpha28")
+
+    implementation ("androidx.camera:camera-core:${cameraxVersion}")
+    implementation ("androidx.camera:camera-camera2:${cameraxVersion}")
+    implementation ("androidx.camera:camera-view:${cameraxVersion}")
+    implementation ("androidx.camera:camera-lifecycle:$cameraxVersion")
+
 }
