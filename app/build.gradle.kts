@@ -72,10 +72,6 @@ dependencies {
 
     implementation(libs.google.mlkit.facedetection)
 
-//    implementation ("androidx.camera:camera-core:1.1.0")
-//    implementation ("androidx.camera:camera-camera2:1.1.0")
-//    implementation ("androidx.camera:camera-lifecycle:1.1.0")
-//    implementation ("androidx.camera:camera-view:1.0.0-alpha28")
 
     implementation ("androidx.camera:camera-core:${cameraxVersion}")
     implementation ("androidx.camera:camera-camera2:${cameraxVersion}")
